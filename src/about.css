@@ -1,0 +1,204 @@
+#page-2 {
+    display: none;
+}
+
+#p2-main-about {
+    color: white;
+    background-color: hsl(209, 90%, 7%);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Manrope';
+}
+
+.p2-titles {
+    font-size: 2.4rem;
+    color: #F4C542;
+}
+.p2-description-container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: white;
+    font-family: 'Manrope'; 
+    text-align: center;
+    letter-spacing: .5px;
+   
+}
+.p2-text-container {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: lightgray;
+    
+}
+#p2-our-mission-container {
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+#p2-img-container {
+width: 95vw;
+height: auto;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+margin: 0 auto;
+gap: 5px;
+}
+.p2-images {
+    width: 100%;
+    height: 100%;
+}
+#p2-cognitive-benefits {
+    background-color: hsl(209, 90%, 9%);
+    padding: 15px;
+}
+
+#p2-ul-list-container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    color: lightgray;
+    font-size: 1.2rem;
+    font-family: 'Manrope';
+   text-align: center;
+   padding-right: 35px;
+   
+   
+}
+#p2-ul-list-container2 {
+    text-align: center;
+    padding-right: 35px;
+}
+.p2-list {
+    list-style-type: none;
+}
+#p2-arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+#p2-ul-list-container2 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    color: lightgray;
+    font-size: 1.2rem;
+    font-family: 'Manrope';
+    text-align: center;
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    #p2-main-about {
+        background-image: url('images/mindGymLabp4Background.webp');
+    }
+    .p2-images {
+        width: 100%; /* Let grid container control size */
+        height: 100%; /* Maintain aspect ratio */
+        object-fit: cover;
+    }
+
+    .p2-text-container {
+        width: 85%;
+        text-align: left;
+        font-size: 1.2rem;
+        padding-left: 20px;
+    }
+
+    #p2-img-container {
+        width: 95vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        margin: 0 auto;
+        gap: 5px;
+        }
+
+        .p2-description-container{
+            width: 65%;
+        }
+}
+
+@media (min-width: 1025px) {
+    #p2-main-about {
+        background-image: url('images/mindGymLabp4Background.webp');
+    }
+    .p2-titles {
+        font-size: 3.5rem;
+    }
+
+    .p2-description {
+        font-size: 1.8rem;
+    }
+
+    .p2-images {
+        width: 100%; /* Let grid container control size */
+        height: 100%; /* Maintain aspect ratio */
+        object-fit: cover;
+    }
+
+    #p2-img-container {
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-auto-rows: 1fr;
+        margin: 0 auto;
+        gap: 20px;
+        padding: 50px;
+        box-sizing: border-box;
+        }
+        .p2-description-container{
+            width: 50%;
+        }
+        .p2-paragraph {
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+
+        #p2-cognitive-benefits {
+            display: flex;
+            height: 400px;
+        }
+
+        #p2-last-description {
+       
+        }
+
+        #p2-ul-list-container {
+           text-align: left;
+            width: auto;
+            font-size: 1.4rem;
+        }
+        #p2-arrow-container {
+            height: 40px;
+            margin-top: 120px;
+            margin-right: 25px;
+            transform: rotate(-90deg);
+        }
+        #p2-arrow-container svg {
+            width: 30px;
+            height: 30px;
+        }
+        #p2-ul-list-container2 {
+           text-align: left;
+            width: auto;
+            font-size: 1.4rem;
+        }
+        .p2-list {
+            list-style-type: square;
+        }
+}
+

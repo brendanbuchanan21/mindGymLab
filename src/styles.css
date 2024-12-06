@@ -1,0 +1,574 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#logo-img {
+    
+    width: 100px;
+    height: 60px;
+}
+#logo-img:hover {
+    cursor: pointer;
+}
+#header-img-container {
+    width: 150px;
+    height: 70px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hamburger-container {
+    width: 50px;
+    height: 40px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hamber-container:hover {
+    cursor: pointer;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    max-height: 100px;
+    width: 100%;
+    background-color: black;
+}
+#hero-section {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+#hero-img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100%;
+}
+#hero-main-text-container {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    text-align: center;
+    color: white;
+    width: 70%;
+    line-height: 2.4rem;
+   font-family: 'Manrope';
+   
+}
+#opening-text {
+    font-size: 2rem;
+}
+#hero-small-text-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 55%;
+    width: 60%;
+    left: 23%;
+    color: white;
+    font-family: 'Manrope';
+    font-weight: lighter;
+}
+#hero-small-text {
+    font-weight: lighter;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+}
+.sports-images {
+    min-width: 155px;
+    max-width: 155px;
+    min-height: 140px;
+    max-height: 140px;
+}
+#sports-section {
+    color: white;
+    padding: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+#sports-text {
+    text-align: center;
+    font-size: 2rem;
+}
+#sports-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.sport-title {
+    font-weight: 400;
+}
+.individual-sport-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: left;
+}
+li {
+    margin-bottom: 8px;
+}
+ #learn-more-btn {
+    margin-top: 20px;
+   width: 150px;
+   height: 65px;
+ background: #72A0C1;
+ border: none;
+ color: white;
+ font-family: 'Manrope', sans-serif;
+ font-size: 1.1rem;
+}
+#learn-more-btn:hover {
+    background-color: hsl(204, 40%, 40%);
+    cursor: pointer;
+}
+#learn-more-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+#first-page-description {
+    margin: 0 auto;
+height: auto;
+width: 80%;
+margin-top: 30px;
+display: flex;
+text-align: center;
+padding: 10px;
+line-height: 1.1;
+}
+#first-page-description h2 {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+body #first-page-description {
+    align-content: center;
+}
+#p1-bottom-img-section {
+    height: auto;
+    margin-top: 80px;
+}
+#bottom-img-p1-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+#bottom-p1-img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100%;
+}
+#bottom-p1-main-text-container {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: white;
+    text-align: center;
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+   font-family: 'Manrope';
+   font-weight: 400;
+}
+#p1-bottom-img-text {
+    font-size: 2.1rem;
+    
+}
+#p1-bottom-small-text-container {
+position: absolute;
+top: 55%;
+width: 60%;
+left: 50%;
+transform: translateX(-50%);
+color: white;
+font-family: 'Manrope';
+font-weight: lighter;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+#p1-bottom-image-small-text {
+    font-weight: lighter;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+}
+#footer-p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+#footer-p1 h2 {
+font-family: 'Manrope';
+}
+.footer-text {
+    font-family: 'Manrope';
+    font-size: 1.1rem;
+}
+#footer-location-text {
+    font-size: 1rem
+    
+}
+.footer-link {
+    color: white; /* Ensures the text is white */
+    text-decoration: none; /* Removes underline */
+    display: inline-block; 
+}
+
+hr {
+    width: 60%;
+}
+
+#location-container {
+    width: 80%;
+    margin: 0 auto;
+}
+#footer-location-text:hover {
+    color: hsl(0, 0%, 70%);
+}
+
+#contact-us-btn {
+    margin-top: 20px;
+   width: 150px;
+   height: 65px;
+ background: #72A0C1;
+ border: none;
+ color: white;
+ font-family: 'Manrope', sans-serif;
+ font-size: 1.1rem;
+}
+#contact-us-btn:hover {
+    background-color: hsl(204, 40%, 40%);
+    cursor: pointer;
+}
+#contact-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border: none;
+    
+}
+
+#social-icons-container {
+width: auto;
+height: auto;
+
+display: flex;
+justify-content: center;
+gap: 8px;
+}
+
+.social-icons {
+   margin-top: 20px;
+    width: 25px;
+    height: 25px;
+    background-color: none;
+    
+    
+}
+
+
+#nav-overlay {
+    background-color: whitesmoke;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+
+}
+#nav-links-container {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#nav-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-ul li {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-family: 'Manrope';
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+#nav-ul li:hover {
+    border-bottom: 1px solid #72A0C1;
+}
+
+#close-nav-btn-container {
+    position: absolute; 
+   top: 10px;
+   right: 10px;
+}
+#overlay-contact-us-btn {
+    margin-top: 20px;
+   width: 200px;
+   height: 65px;
+   border: none;
+ background: #72A0C1;
+ color: white;
+ font-family: 'Manrope', sans-serif;
+ font-size: 1.1rem;
+}
+#overlay-contact-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+}
+#footer-location-text {
+    font-size: .9rem;
+}
+
+@media (max-width: 1024px) {
+    #nav-text-links-container {
+        display: none;
+    }
+
+    #social-icons-container-header {
+        display: none;
+        
+    }
+   
+    #header-contact-us-container {
+        display: none;
+       
+    }
+}
+@media (min-width: 700px) and (max-width: 1024px) {
+    /* Styles for tablets or medium screens */
+    #nav-text-links-container {
+        display: none;
+    }
+
+    #social-icons-container-header {
+        display: none;
+        
+    }
+   
+    #header-contact-us-container {
+        display: none;
+       
+    }
+    .sports-images {
+        min-width: 320px;  
+        min-height: 320px;
+    }
+     
+    #sports-text {
+        font-size: 2rem;
+    }
+    #opening-text {
+        font-size: 2.5rem
+        
+    }
+    #hero-small-text-container {
+        margin-top: -40px;
+    }
+
+    #first-page-description h2 {
+        font-size: 1.5rem;
+    }
+    #p1-bottom-small-text-container {
+        margin-top: -20px;
+    }
+}
+
+/* for laptop device size */
+@media (min-width: 1025px) {
+        #hamburger-container {
+            display: none;
+        }
+        #nav-bar {
+            min-height: 130px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #nav-text-links-container {
+            color: white;
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            margin-left: 10px;
+            gap: 20px;
+            font-family: 'Manrope';
+            align-items: center;
+            justify-content: center;
+        }
+        .nav-text {
+            position: relative; /* Needed for ::after to position correctly */
+            color: white;
+            text-decoration: none; /* Removes default underline */
+            cursor: pointer;
+            
+        }
+        
+        /* Add the animated underline using ::after */
+        .nav-text::after {
+            content: ""; /* Creates the underline */
+            position: absolute;
+            left: 0;
+            bottom: -5px; /* Distance from the text */
+            width: 0; /* Hidden initially */
+            height: 2px; /* Thickness of the underline */
+            background-color: white; /* Color of the underline */
+            transition: width 0.3s ease-in-out; /* Smooth rollout */
+        }
+        
+        /* On hover, make the underline appear */
+        .nav-text:hover::after {
+            width: 100%; /* Expands the underline fully */
+        }
+        #social-icons-container-header {
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            gap: 10px;
+            
+        }
+        #header-contact-us-btn {
+            width: 100%;
+            height: 65px;
+            background: #72A0C1;
+            border: none;
+            color: white;
+            font-family: 'Manrope', sans-serif;
+            font-size: 1.1rem;
+        }
+       #header-contact-us-btn:hover {
+        background-color: hsl(204, 40%, 40%);
+        cursor: pointer;
+       }
+        #header-contact-us-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            width: 10%;
+            height: 80px;
+        }
+        
+        .social-icons-header {
+            margin-top: 10px;
+            width: 30px;
+            height: 30px;
+            background-color: none;
+        }
+        #instagram-icon-header {
+            background-color: none;
+        }
+        #hero-section {
+            height: 90vh;
+        }
+        #opening-text {
+            margin-top: 60px;
+            font-size: 4.5rem;
+            line-height: 5rem;
+        }
+        #hero-small-text {
+            font-size: 2rem;
+            margin-top: -10px;
+        }
+        .sports-images {
+            min-width: 500px;  
+            min-height: 500px;
+        }
+        
+        #sports-text {
+            font-size: 3rem;
+        }
+        .sport-title {
+            font-size: 2.2rem;
+        }
+        .sport-description {
+            font-size: 1.2rem;
+        }
+        #learn-more-btn {
+            margin-top: 100px;
+            width: 200px;
+        }
+        #first-page-description {
+            margin-top: 100px;
+            width: 50%;
+            height: 50%;
+          
+        }
+        #first-page-description h2 {
+            font-size: 2.5rem;
+        }
+        #bottom-img-p1-container {
+            height: 60vh;
+        }
+        #bottom-p1-main-text-container {
+            margin-top: 80px;
+        }
+        #p1-bottom-img-text{
+            font-size: 3rem;
+        }
+        #p1-bottom-image-small-text {
+            font-size: 1.3rem;
+        }
+        #footer-p1 h2 {
+            font-size: 2rem;
+        }
+        .footer-text {
+            font-size: 1.3rem;
+        }
+}
+
+@media (min-width: 1200px) {
+#nav-text-links-container{
+    font-size: 1.4rem;
+
+}
+.social-icons-header {
+    
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    
+}
+}
+
+

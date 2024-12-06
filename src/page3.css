@@ -1,0 +1,330 @@
+
+#page-3 {
+    font-family: 'Manrope';
+    background-color: hsl(209, 90%, 7%);
+    display: none;
+}
+
+#page-3-main-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Manrope';
+}
+
+#p3-header {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #F4C542;
+    padding-top: 40px;
+}
+
+#p3-main-description-container {
+  
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#p3-main-description-text {
+    color: white;
+    text-align: left;
+}
+
+.p3-paragraph-container {
+ 
+    width: 80%;
+}
+.p3-paragraph {
+    font-size: 1.1rem;
+    color: lightgray;
+    text-align: left;
+}
+#video-container {
+    width: 80%;
+    background-color: black;
+    height: auto;
+}
+#p3-video {
+    width: 100%;
+}
+.p3-hr {
+    margin-top: 20px;
+    width: 100%;
+    display: none;
+}
+#p3-section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Manrope';
+    background-color: #1C1C1C ;
+}
+
+#p3-second-section-header-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #F4C542;;
+    font-size: 1.4rem;
+}
+
+#p3-section-2-main-description-container {
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: left;
+   
+}
+#learn-more-btn-p3 {
+    margin-top: 20px;
+    width: 150px;
+    height: 65px;
+    background: #72A0C1;
+    border: none;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+}
+#learn-more-btn-p3:hover {
+    cursor: pointer;
+    background-color: hsl(204, 40%, 40%);
+}
+
+#learn-more-btn-p3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+#p3-picture-section {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+ 
+}
+
+.p3-section-3-main-img-containers {
+    margin-top: 30px;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   gap: 30vh;
+}
+
+.p3-img {
+   height: 25%;
+   width: 70%;
+    object-fit: cover;
+}
+
+#p3-section-3-main-img-container2 {
+    display: flex;
+    align-items: end;
+    margin-top: 50px;
+}
+#p3-last-head-text {
+    color: white;
+    font-family: 'Manrope';
+}
+#p3-last-head-text-container {
+    height: 70vh;
+    margin-left: 15%;
+    width: 70%;
+   text-align: center; 
+   margin-top: -580px;  
+}
+#p3-last-text-container {
+    margin: 0 auto;
+    margin-top: -70px;
+    width: 80%;
+    text-align: left;
+    color: #f9f9f9;
+    font-family: 'Manrope', sans-serif;
+    background-color: #72A0C1;
+    font-size: 1.2rem;
+    height: auto;
+    padding: 10px;
+    
+}
+
+#p3-space {
+    height: 10vh;
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    #page-3 {
+        background-image: url('images/mindGymLabp4Background.webp');
+    }
+    #p3-header {
+        font-size: 2.3rem;
+    }
+    #p3-main-description-text {
+            color: white;
+            font-size: 1.3rem;
+        }
+
+    .p3-paragraph {
+        font-size: 1.2rem;
+    }
+    
+    #p3-second-section-header-text {
+        font-size: 2.3rem;
+    }
+    #p3-section-2-main-description-text {
+        font-size: 1.3rem;
+    }
+    .p3-section-3-main-img-containers {
+        margin-top: 10px;
+        gap: 35vh;
+    }
+    .p3-img {
+        width: 80%;
+        height: 25%;
+    }
+    #p3-last-head-text-container {
+        margin-top: -580px;
+    }
+    #p3-last-text-container {
+        margin-top: 50px;
+        width: 60%;
+        height: auto;
+    }
+    #p3-last-text {
+        font-size: 1.3rem;
+        padding: 20px;
+    }
+    #p3-3rd-img {
+        margin-bottom: -20px;
+        height: 50%;
+    }
+    #p3-4th-img {
+        height: 50%;
+    }
+}
+@media (min-width: 1025px) {
+    #page-3 {
+        background-image: url('images/mindGymLabp4Background.webp');
+    }
+    #p3-header {
+        font-size: 2.6rem;
+    }
+    #p3-main-description-container {
+        width: 70%;
+    }
+    .p3-paragraph-container {
+        width: 70%;
+    }
+    #p3-main-description-text {
+            color: white;
+            font-size: 1.4rem;
+        }
+
+    .p3-paragraph {
+        font-size: 1.3rem;
+    }
+    #video-container {
+        width: 70%;
+    }
+    
+    #p3-second-section-header-text {
+        font-size: 2.3rem;
+    }
+    #p3-section-2-main-description-text {
+        font-size: 1.3rem;
+    }
+    #p3-section-2-main-description-container {
+        width: 70%;
+    }
+    #p3-section-3-main-img-container2 {
+        display: none;
+    }
+    .p3-section-3-main-img-containers {
+        gap: 80px;
+        padding: 20px;
+        
+        margin-left: 120px;
+    }
+    #p3-1st-img {
+        margin-top: 200px;
+    }
+    #p3-3rd-img {
+        width: 75%;
+        height: 50%;
+    }
+    #p3-last-head-text-container {
+        height: 100vh;
+        width: 50%;
+       margin-top: -900px;
+       margin-left: 120px;
+       text-align: left;   
+       padding: 20px;
+    }
+    #p3-last-head-text-container {
+        font-size: 1.3rem;
+    }
+    #p3-last-text-container {
+        height: 50vh;
+        width: 35vw;
+        margin-top: -620px;
+        margin-right: 90px;
+        height: auto;
+        
+    }
+    #p3-last-text {
+        font-size: 1.7rem;
+    }
+
+    #p3-space {
+        height: 45vh;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1250px) {
+    #p3-3rd-img {
+        height: 40%;
+    }
+    #p3-last-head-text-container {
+        height: 100vh;
+        width: 50%;
+       margin-top: -800px;
+       margin-left: 120px;
+       text-align: left;   
+       padding: 20px;
+   
+    }
+    #p3-last-text {
+        font-size: 1.5rem;
+    }
+    #p3-last-text-container {
+        margin-top: -547px;
+    }
+}
+
+@media (min-width: 1251px) {
+    #p3-last-head-text-container {
+        height: 100vh;
+        width: 50%;
+       margin-top: -750px;
+       margin-left: 120px;
+       text-align: left;   
+       padding: 20px;
+   
+    }
+}

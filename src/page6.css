@@ -1,0 +1,69 @@
+#page-6 {
+    background-color: hsl(209, 90%, 10%);
+    color: white;
+    font-family: 'Manrope';
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#p6-header-div {
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+#p6-header-text {
+font-size: 1.8rem;
+font-weight: 400;
+}
+.p6-paragraph-div {
+    text-align: center;
+    color: hsl(0, 0%, 80%);
+    font-size: 1.2rem;
+}
+#p6-paragraph-div-2 {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    #page-6 {
+        background-image: url('images/mindGymLabp4Background.webp');
+        padding: 30px;
+    }
+    #p6-header-text {
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+    .p6-paragraph-div {
+        text-align: left;
+        padding-left: 30px;
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    #p6-paragraph-div-1 {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #page-6 {
+        background-image: url('images/mindGymLabp4Background.webp');
+        padding: 30px;
+    }
+    #p6-header-text {
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+    .p6-paragraph-div {
+        font-size: 1.5rem;
+        width: 75%;
+    }
+    #p6-paragraph-div-1 {
+        margin-top: 20px;
+    }
+    #p6-paragraph-div-2 {
+        margin-bottom: 100px;
+    }
+}

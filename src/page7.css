@@ -1,0 +1,119 @@
+#page-7 {
+    background-color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+#p7-head-container {
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+}
+#p7-head-text {
+    font-family: 'Manrope';
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+#p7-card-section-container {
+    
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+.p7-card {
+  
+    width: 100%;
+    height: auto;
+   
+}
+.p7-card-video-div {
+    background-color: black;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p7-video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.p7-card-type-container {
+    margin-top: -15px;
+}
+.p7-card-type-text {
+    font-family: 'Manrope';
+    font-size: 1.5rem;
+}
+
+.p7-card-description-container {
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+.p7-card-description-text {
+    font-family: 'Manrope';
+    color: rgb(45, 45, 45);
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+
+
+#p7-card-section-container {
+    margin-top: -100px;
+    margin-bottom: 200px;
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    grid-template-rows: auto auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.p7-card {
+    width: 100%;
+    height: 70%;
+
+}
+}
+
+@media (min-width: 1025px) {
+    #p7-card-section-container {
+        margin-top: -50px;
+        margin-bottom: 300px;
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+        grid-template-rows: auto auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 50px;
+    }
+    .p7-card {
+        border-radius: 5px;
+        width: 100%;
+        height: 70%;
+    
+    }
+
+    #p7-head-container {
+        margin-top: 30px;
+    }
+    #p7-head-text {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+}
