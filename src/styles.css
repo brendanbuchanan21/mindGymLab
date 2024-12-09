@@ -58,7 +58,7 @@ body {
     color: white;
     width: 70%;
     line-height: 2.4rem;
-   font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
    
 }
 #opening-text {
@@ -74,12 +74,12 @@ body {
     width: 60%;
     left: 23%;
     color: white;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-weight: lighter;
 }
 #hero-small-text {
     font-weight: lighter;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-size: 1.2rem;
 }
 .sports-images {
@@ -91,7 +91,7 @@ body {
 #sports-section {
     color: white;
     padding: 10px;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 #sports-text {
     text-align: center;
@@ -122,7 +122,7 @@ li {
  background: #72A0C1;
  border: none;
  color: white;
- font-family: 'Manrope', sans-serif;
+ font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
  font-size: 1.1rem;
 }
 #learn-more-btn:hover {
@@ -148,7 +148,7 @@ line-height: 1.1;
 }
 #first-page-description h2 {
     color: white;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -179,7 +179,7 @@ body #first-page-description {
     width: 90%;
     font-size: 1.2rem;
     line-height: 2.4rem;
-   font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
    font-weight: 400;
 }
 #p1-bottom-img-text {
@@ -193,7 +193,7 @@ width: 60%;
 left: 50%;
 transform: translateX(-50%);
 color: white;
-font-family: 'Manrope';
+font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 font-weight: lighter;
 display: flex;
 text-align: center;
@@ -201,7 +201,7 @@ justify-content: center;
 }
 #p1-bottom-image-small-text {
     font-weight: lighter;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-size: 1.2rem;
 }
 #footer-p1 {
@@ -214,10 +214,10 @@ justify-content: center;
     text-align: center;
 }
 #footer-p1 h2 {
-font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 .footer-text {
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-size: 1.1rem;
 }
 #footer-location-text {
@@ -249,7 +249,7 @@ hr {
  background: #72A0C1;
  border: none;
  color: white;
- font-family: 'Manrope', sans-serif;
+ font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
  font-size: 1.1rem;
 }
 #contact-us-btn:hover {
@@ -319,7 +319,7 @@ gap: 8px;
 #nav-ul li {
     margin-bottom: 20px;
     font-size: 2rem;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-weight: 500;
     cursor: pointer;
     border-bottom: 2px solid transparent; 
@@ -342,7 +342,7 @@ gap: 8px;
    border: none;
  background: #72A0C1;
  color: white;
- font-family: 'Manrope', sans-serif;
+ font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
  font-size: 1.1rem;
 }
 #overlay-contact-us-container {
@@ -430,7 +430,7 @@ gap: 8px;
             flex-direction: row;
             margin-left: 10px;
             gap: 20px;
-            font-family: 'Manrope';
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
             align-items: center;
             justify-content: center;
         }
@@ -473,7 +473,7 @@ gap: 8px;
             background: #72A0C1;
             border: none;
             color: white;
-            font-family: 'Manrope', sans-serif;
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
             font-size: 1.1rem;
         }
        #header-contact-us-btn:hover {

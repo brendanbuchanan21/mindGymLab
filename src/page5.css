@@ -12,7 +12,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 
 }
 #p5-text-title {
@@ -35,7 +35,7 @@
     height: auto;
     display: block;
     width: 100%;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     padding: 20px;
 }
 #p5-section-2-main-text {

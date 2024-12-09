@@ -30,7 +30,7 @@
     transform: translateX(-50%); 
     color: white; 
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     line-height: 1;
 }
 
@@ -39,7 +39,7 @@
     color: white;
     top: 38%;
     left: 5%;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     line-height: 1;
     font-weight: 300;
 }
@@ -58,7 +58,7 @@
 #p4-dyk-text {
     color: #72A0C1;
     font-size: 2rem;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     padding: 10px;
     
 }
@@ -74,7 +74,7 @@
 .p4-dyk-paragraph-text {
     color: white;
     text-shadow: 2px 2px 8px black;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-size: 1.2rem;
 }
 #p4-section2 {
@@ -83,11 +83,10 @@
     width: 100%;
     padding: 0;
     margin: 0;
-    
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 #p4-high-performance-text {
     color: white;
@@ -117,7 +116,7 @@
 #p4-section2-paragraph-text {
     color: white;
     font-size: 1.2rem;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 #p4-sport-section {
     display: flex;
@@ -143,13 +142,13 @@
     padding: 15px;
     color: #F4C542;
     font-size: 1.4rem;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     
 }
 .p4-sport-paragraph-container {
     padding: 0 15px;
     margin: -20px 0 10px 0;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     color: white;
    
 }
@@ -166,7 +165,7 @@
     width: 120px;
     background-color: #72A0C1;
     color: white;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     font-size: 1rem;
     border: none;
 }
@@ -189,7 +188,7 @@
     transform: translateX(-50%); 
     color: white; 
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); 
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     line-height: 1;
 }
 
@@ -199,7 +198,7 @@
     color: white;
     top: 38%;
     left: 5%;
-    font-family: 'Manrope';
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     line-height: 1;
     font-weight: 300;
 }
@@ -310,7 +309,7 @@
     }
     .p4-dyk-paragraph-text {
         font-size: 1.4rem;
-        font-family: "Manrope";
+        font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
     }
     #p4-section-2-big-container {
         display: flex;
