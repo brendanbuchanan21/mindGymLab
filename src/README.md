@@ -1,4 +1,4 @@
-# Project Name
+# mindGymLab Website
 This is the code for mindGymLab based out of Bejing China. They are the first and only neurocognitive training center in China, looking to 
 reach a broader audience through the web. This code is the complete markup of the website published for mindGymLab.
 
