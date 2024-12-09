@@ -72,6 +72,7 @@ videoElement.width = 320;
 videoElement.height = 240; 
 videoElement.controls = true; 
 videoElement.id = 'p3-video'; 
+videoElement.preload = 'metadata';
 
 
 const sourceElement = document.createElement('source');
@@ -164,12 +165,14 @@ p3FirstImg.classList.add('p3-img');
 p3FirstImg.alt = 'mindGymLab';
 p3FirstImg.src = 'images/mindGymLabP3Img1.jpeg'
 p3FirstImg.id = 'p3-1st-img';
+p3FirstImg.loading = 'lazy';
 
 const p3SecondImg = document.createElement('img');
 p3SecondImg.classList.add('p3-img');
 p3SecondImg.alt = 'mindGymLab';
 p3SecondImg.src = 'images/mindGymLabP3Img2.jpeg';
 p3SecondImg.id = 'p3-3rd-img';
+p3SecondImg.loading = 'lazy';
 
 const p3SecondPictureContainer = document.createElement('div');
 p3SecondPictureContainer.classList.add('p3-section-3-main-img-containers');
@@ -179,12 +182,14 @@ const p3ThirdImg = document.createElement('img');
 p3ThirdImg.classList.add('p3-img');
 p3ThirdImg.alt = 'mindGymLab';
 p3ThirdImg.src = 'images/mindGymLabp3Img3.jpeg';
+p3ThirdImg.loading = 'lazy';
 
 const p3FourthImg = document.createElement('img');
 p3FourthImg.classList.add('p3-img');
 p3FourthImg.alt = 'mindGymLab';
 p3FourthImg.src = 'images/mindGymLabp3Img4.jpeg';
 p3FourthImg.id = 'p3-4th-img';
+p3FourthImg.loading = 'lazy';
 
 p3Container.appendChild(p3pictureSection);
 p3pictureSection.appendChild(p3FirstPictureContainer);

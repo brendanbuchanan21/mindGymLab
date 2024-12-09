@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin'); 
+
 
 module.exports = {
   entry: './src/index.js', // Only entry for index.html
@@ -17,9 +19,10 @@ module.exports = {
         use: ['style-loader', 'css-loader'], 
       },
       {
-        test: /\.(png|jpe?g|gif|svg)$/i, 
+        test: /\.(png|jpe?g|gif|svg|mp4|webm)$/i, 
         type: 'asset/resource',
       },
+     
       {
         test: /\.html$/, // Process HTML files (for index.html)
         use: ['html-loader'],
@@ -32,6 +35,11 @@ module.exports = {
       filename: 'index.html',  // Output filename for index.html
     }),
     new CleanWebpackPlugin(),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'src/images', to: 'images' }, // Copies `src/images` to `dist/images`
+      ],
+    }),
   ],
   devServer: {
     static: path.resolve(__dirname, 'src'), 

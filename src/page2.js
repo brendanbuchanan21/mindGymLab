@@ -108,31 +108,37 @@ const p2Img1 = document.createElement('img');
 p2Img1.src = 'images/mindGymLabP2Img1.jpeg';
 p2Img1.alt = 'mindGymLab';
 p2Img1.classList.add('p2-images');
+p2Img1.loading = 'lazy';
 
 const p2Img2 = document.createElement('img');
 p2Img2.src = 'images/mindGymLabp2Img2.jpeg';
 p2Img2.alt = 'mindGymLab';
 p2Img2.classList.add('p2-images');
+p2Img2.loading = 'lazy';
 
 const p2Img3 = document.createElement('img');
 p2Img3.src = 'images/mindGymLabp2Img3.jpeg';
 p2Img3.alt = 'mindGymLab';
 p2Img3.classList.add('p2-images');
+p2Img3.loading = 'lazy';
 
 const p2Img4 = document.createElement('img');
 p2Img4.src = 'images/mindGymLabp2Img4.jpeg';
 p2Img4.alt = 'mindGymLab';
 p2Img4.classList.add('p2-images');
+p2Img4.loading = 'lazy';
 
 const p2Img5 = document.createElement('img');
 p2Img5.src = 'images/mindGymLabp2Img5.jpeg';
 p2Img5.alt = 'mindGymLab';
 p2Img5.classList.add('p2-images');
+p2Img5.loading = 'lazy';
 
 const p2Img6 = document.createElement('img');
 p2Img6.src = 'images/mindGymLabp2Img6.jpeg';
 p2Img6.alt = 'mindGymLab';
 p2Img6.classList.add('p2-images');
+p2Img6.loading = 'lazy';
 
 page2Container.appendChild(p2PictureSection);
 p2PictureSection.appendChild(p2ImagesContainer);

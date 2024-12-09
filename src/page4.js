@@ -99,6 +99,7 @@ export function page4() {
     p4Section2Img.src = 'images/heroImageMindGym.jpeg';
     p4Section2Img.alt = 'mindGymLab';
     p4Section2Img.id = 'p4-section2-img';
+    p4Section2Img.loading = 'lazy';
 
     const p4Section2ParagraphContainer = document.createElement('div');
     p4Section2ParagraphContainer.classList.add('p4-dyk-paragraph-container');
@@ -129,6 +130,7 @@ export function page4() {
     p4TennisImg.alt = 'mindGymLabTennis';
     p4TennisImg.id = 'p4-sport-img-1';
     p4TennisImg.classList.add('p4-sport-img');
+    p4TennisImg.loading = 'lazy';
 
     const p4TennisText = document.createElement('p');
     p4TennisText.classList.add('p4-sport-label-text');
@@ -177,6 +179,7 @@ export function page4() {
     p4BasketballImg.classList.add('p4-sport-img');
     p4BasketballImg.alt = 'mindGymLab';
     p4BasketballImg.src = 'images/basketballMindGymImage.jpg';
+    p4BasketballImg.loading = 'lazy';
 
     const p4BasketballLabel= document.createElement('p');
     p4BasketballLabel.classList.add('p4-sport-label-text');
@@ -215,6 +218,7 @@ p4SoccerImg.id = 'p4-sport-img-2';
 p4SoccerImg.classList.add('p4-sport-img');
 p4SoccerImg.alt = 'mindGymLab';
 p4SoccerImg.src = 'images/soccerMindGymImage.jpg';
+p4SoccerImg.loading = 'lazy';
 
 const p4SoccerLabel = document.createElement('p');
 p4SoccerLabel.classList.add('p4-sport-label-text');
@@ -264,6 +268,7 @@ p4GolfImg.id = 'p4-sport-img-3';
 p4GolfImg.classList.add('p4-sport-img');
 p4GolfImg.alt = 'mindGymLab';
 p4GolfImg.src = 'images/p4MindGymLabGolf.jpg';
+p4GolfImg.loading = 'lazy';
 
 const p4GolfLabel = document.createElement('p');
 p4GolfLabel.classList.add('p4-sport-label-text');
@@ -311,6 +316,7 @@ p4FencingImg.id = 'p4-sport-img-4';
 p4FencingImg.classList.add('p4-sport-img');
 p4FencingImg.alt = 'mindGymLab';
 p4FencingImg.src = 'images/p4MindGymLabFencing.jpg';
+p4FencingImg.loading = 'lazy';
 
 const p4FencingLabel = document.createElement('p');
 p4FencingLabel.classList.add('p4-sport-label-text');
@@ -357,6 +363,7 @@ p4HockeyImg.id = 'p4-sport-img-5';
 p4HockeyImg.classList.add('p4-sport-img');
 p4HockeyImg.alt = 'mindGymLab';
 p4HockeyImg.src = 'images/p4MindGymLabHockey.jpeg';
+p4HockeyImg.loading = 'lazy';
 
 const p4HockeyLabel = document.createElement('p');
 p4HockeyLabel.classList.add('p4-sport-label-text');

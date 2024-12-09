@@ -33,6 +33,7 @@ export function page7() {
     p7Video1.src = 'images/unlockSpeed.mp4';
     p7Video1.type = 'video/mp4';
     p7Video1.controls = 'true';
+    p7Video1.preload = 'metadata';
 
     const p7CardTypeContainer1 = document.createElement('div');
     p7CardTypeContainer1.classList.add('p7-card-type-container');
@@ -73,6 +74,7 @@ p7Video2.classList.add('p7-video');
 p7Video2.src = 'images/peripheralVision.mp4';
 p7Video2.type = 'video/mp4';
 p7Video2.controls = 'true';
+p7Video2.preload = 'metadata';
 
 const p7CardTypeContainer2 = document.createElement('div');
 p7CardTypeContainer2.classList.add('p7-card-type-container');
@@ -109,6 +111,7 @@ p7Video3.classList.add('p7-video');
 p7Video3.src = 'images/mental wellness.mp4';
 p7Video3.type = 'video/mp4';
 p7Video3.controls = 'true';
+p7Video3.preload = 'metadata';
 
 const p7CardTypeContainer3 = document.createElement('div');
 p7CardTypeContainer3.classList.add('p7-card-type-container');

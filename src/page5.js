@@ -57,6 +57,7 @@ export function page5() {
     p5Video.src = 'images/30s.mp4';
     p5Video.type = 'video/mp4';
     p5Video.controls = true;
+    p5Video.preload = 'metadata';
 
     const p5LastText = document.createElement('p');
     p5LastText.id = 'p5-last-text';
